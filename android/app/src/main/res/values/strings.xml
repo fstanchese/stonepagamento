@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">stonepagamento</string>
+    <color name="log">#363535</color>
+    <color name="fundo">#404040</color>
+    <color name="confirmar">#B6F3BA</color>
+</resources>
