@@ -25,14 +25,14 @@ export default class Home extends Component {
 
         <View style={styles.lineMiddle} />
 
-        <TouchableOpacity style={styles.containerMiddle} onPress={() => this.props.navigation.navigate('EntradaSenha')}> 
+        <TouchableOpacity style={styles.containerMiddle} onPress={() => this.props.navigation.navigate('Home')}> 
             <Text style={{color: 'white', fontSize: 18, textAlign: 'center', marginTop: 25}}>Crédito</Text>
             <Text style={styles.legendaGrande}>Valor</Text>
             <Text style={styles.legendaGrande}>R$ 50,00</Text>
             <Text style={{color: 'white', fontSize: 18, textAlign: 'center', marginBottom: 25}}>Insira o cartão</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={styles.buttonVoltar} onPress={() => this.props.navigation.navigate('CarregarTag')}>
+        <TouchableOpacity style={styles.buttonVoltar} onPress={() => this.props.navigation.navigate('Home')}>
             <Text style={styles.legenda}>Cancelar</Text>
         </TouchableOpacity>                     
         </View>
